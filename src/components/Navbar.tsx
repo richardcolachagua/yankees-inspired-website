@@ -16,7 +16,30 @@ export default function Navbar() {
         <NavigationMenuList className="space-x-2">
           <NavigationMenuItem>
             <Link href="/history" passHref legacyBehavior>
-              <NavigationMenuLink></NavigationMenuLink>
+              <NavigationMenuLink className="px-4 py-2 rounded-md hover:bg-gray-100 transition">
+                History
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/rivalries" passHref legacyBehavior>
+              <NavigationMenuLink className="px-4 py-2 rounded-md hover:bg-gray-100 transition">
+                Rivlaries
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/world-series" passHref legacyBehavior>
+              <NavigationMenuLink className="px-4 py-2 rounded-md hover:bg-gray-100 transition">
+                World Series Wins
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/best-players" passHref legacyBehavior>
+              <NavigationMenuLink className="px-4 py-2 rounded-md hover:bg-gray-100 transition">
+                Best Yankees Players
+              </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
         </NavigationMenuList>
