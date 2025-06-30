@@ -10,8 +10,8 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-white shadow-md fixed top-0 z-50 flex items-center justify-between px-6 py-4">
-      <span className="font-bold text-xl">Yankees</span>
+    <nav className="w-full bg-yankees-blue text-yankees-white shadow-md fixed top-0 z-50 flex items-center justify-between px-6 py-4">
+      <span className="font-bold text-xl text-yankees-accent">Yankees</span>
       <NavigationMenu>
         <NavigationMenuList className="space-x-2">
           <NavigationMenuItem>

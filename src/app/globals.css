@@ -120,3 +120,52 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Yankees Theme Variables */
+@theme {
+  --yankees-blue: #132448;
+  --yankees-gray: #c4ced4;
+  --yankees-white: #ffffff;
+  --yankees-accent: #e4002b; /* Optional: Red accent */
+}
+
+/* Yankees Utility Classes */
+@layer utilities {
+  .bg-yankees-blue {
+    background-color: var(--yankees-blue);
+  }
+  .text-yankees-blue {
+    color: var(--yankees-blue);
+  }
+  .bg-yankees-gray {
+    background-color: var(--yankees-gray);
+  }
+  .text-yankees-gray {
+    color: var(--yankees-gray);
+  }
+  .bg-yankees-white {
+    background-color: var(--yankees-white);
+  }
+  .text-yankees-white {
+    color: var(--yankees-white);
+  }
+  .bg-yankees-accent {
+    background-color: var(--yankees-accent);
+  }
+  .text-yankees-accent {
+    color: var(--yankees-accent);
+  }
+}
+
+/* Yankees Pinstripe Background (optional) */
+@layer utilities {
+  .bg-pinstripes {
+    background-image: repeating-linear-gradient(
+      to right,
+      var(--yankees-white),
+      var(--yankees-white) 16px,
+      var(--yankees-blue) 16px,
+      var(--yankees-blue) 18px
+    );
+  }
+}

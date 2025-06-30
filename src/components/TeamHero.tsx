@@ -23,9 +23,11 @@ export default function TeamHero({
         <CardContent className="p-8 flex flex-col justify-center h-full">
           <h2 className="text-3xl font-bold mb-4">{title}</h2>
           <p className="mb-6">{description}</p>
-          <Button asChild>
-            <a href={buttonLink}></a>
-          </Button>
+          <div>
+            <Button asChild>
+              <a href={buttonLink}>{buttonText}</a>
+            </Button>
+          </div>
         </CardContent>
       </Card>
       <Card className="md:w-1/2 flex justify-center items-center bg-white shadow-lg">

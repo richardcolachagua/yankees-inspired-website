@@ -3,6 +3,7 @@ import gsap from "gsap";
 import Navbar from "../components/Navbar";
 import TeamHero from "../components/TeamHero";
 import Footer from "../components/Footer";
+import "@/styles/globals.css";
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
