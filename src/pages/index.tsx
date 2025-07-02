@@ -3,7 +3,7 @@ import gsap from "gsap";
 import Navbar from "../components/Navbar";
 import TeamHero from "../components/TeamHero";
 import Footer from "../components/Footer";
-import "@/styles/globals.css";
+import "../app/globals.css";
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="team-section">
           <TeamHero
             image="/images/yankees.jpg"
-            title="New York Yankees"
+            title="The New York Yankees"
             description="The most storied franchise in baseball history. Discover their legacy, championships, and legendary players."
             buttonText="More About the Yankees"
             buttonLink="/history"

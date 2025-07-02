@@ -24,7 +24,7 @@ export default function Navbar() {
           <NavigationMenuItem>
             <Link href="/rivalries" passHref legacyBehavior>
               <NavigationMenuLink className="px-4 py-2 rounded-md hover:bg-gray-100 transition">
-                Rivlaries
+                Rivalries
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
