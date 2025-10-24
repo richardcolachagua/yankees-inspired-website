@@ -11,7 +11,9 @@ import {
 export default function Navbar() {
   return (
     <nav className="w-full bg-yankees-blue text-yankees-white shadow-md fixed top-0 z-50 flex items-center justify-between px-6 py-4">
-      <span className="font-bold text-xl text-yankees-accent">Yankees</span>
+      <span className="font-bold text-xl text-yankees-accent">
+        New York Yankees
+      </span>
       <NavigationMenu>
         <NavigationMenuList className="space-x-2">
           <NavigationMenuItem>
